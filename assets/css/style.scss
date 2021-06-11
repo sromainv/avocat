@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  overflow-x: hidden;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+h1 { font-size: 48px; }
+h2 { font-size: 32px; }
+h3 { font-size: 24px; }
+p { font-size: 18px; }
+
+/*
+Primary color : #90AFC5
+Secondary color : #336B87
+Shadow : #2A3132
+Autumn variations : #763626 #8C402D #AB4E37
+*/
+
+
+
+// --- Button to top ---
+.back-to-top {
+  cursor: pointer;
+  z-index: 7;
+  position: fixed;
+  bottom: 10px;
+  right: 15px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  img {
+    width: 45px;
+    opacity: 0.9;
+  }
+}
+
+
+
+// Small screens (<750)
+@media screen and (max-width: 750px) {
+  .back-to-top {
+    bottom: 5px;
+    right: 10px;
+  }
+}
