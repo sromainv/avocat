@@ -22,6 +22,57 @@ Autumn variations : #763626 #8C402D #AB4E37
 */
 
 
+// --- HEADER ---
+header {
+  .header-img {
+    max-height: 300px;
+    width: 100vw;
+  }
+}
+
+
+
+// Transition (1000> & <750)
+@media screen and (max-width: 1000px) and (min-width: 751px) {
+
+}
+// Small screens (<750)
+@media screen and (max-width: 750px) {
+
+  .back-to-top {
+    bottom: 5px;
+    right: 10px;
+  }
+}
+
+// --- CONTACT ---
+.contact {
+  position: fixed;
+  top: 0;
+  right: 7px; // test
+  display: flex;
+  align-content: center;
+  justify-content: center;
+/*  left: 50%;
+  transform: translate(-50%, 0); */
+  background-color: #83acbe;
+  padding: 5px 10px 7px 10px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  p {
+    font-size: 20px;
+    color: white;
+    white-space: nowrap;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .separator {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+}
 
 // --- Button to top ---
 .back-to-top {
@@ -37,15 +88,5 @@ Autumn variations : #763626 #8C402D #AB4E37
   img {
     width: 45px;
     opacity: 0.9;
-  }
-}
-
-
-
-// Small screens (<750)
-@media screen and (max-width: 750px) {
-  .back-to-top {
-    bottom: 5px;
-    right: 10px;
   }
 }
