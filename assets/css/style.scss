@@ -25,10 +25,10 @@ Autumn variations : #763626 #8C402D #AB4E37
 // --- HEADER ---
 header {
   position: relative;
-  height: 300px;
+  height: 283px;
   .header-img {
     z-index: 1;
-    height: 300px;
+    height: 283px;
     width: 100vw;
   }
   .header-text {
@@ -123,6 +123,37 @@ header {
     margin-bottom: 40px;
   }
 }
+// matieres.html
+.content-matieres {
+  h3 {
+    margin-bottom: 30px;
+  }
+  .content-matieres-titles {
+    margin-top: 60px;
+  }
+}
+// infos-pratiques.html
+.content-infos {
+  p {
+    display: flex;
+    margin: 5px auto 5px auto;
+    a {
+      margin: -6px auto 8px 30px;
+      color: #377391;
+      text-decoration: none;
+    }
+  }
+  h3 {
+    margin-bottom: 25px;
+    padding-left: 15px;
+    border-left: 7px solid #8C402D;
+  }
+  .subtitle {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px auto 10px 10px;
+  }
+}
 
 // --- FOOTER ---
 footer {
@@ -176,9 +207,37 @@ footer {
   #selected-tab {
     padding: 11px 15px;
   }
+  .content {
+    padding: 50px;
+  }
 }
 // Small screens (<750)
 @media screen and (max-width: 750px) {
+  .menu {
+    max-width: 800px;
+    ul {
+      padding: 3px;
+      flex-direction: column;
+      li a p {
+        padding: 0;
+        font-size: 22px;
+      }
+      li a p:after {
+        bottom: -3px;
+      }
+    }
+  }
+  #selected-tab {
+    padding: 0;
+    border: none;
+    box-shadow: 0 3px 0 0 #90AFC5;
+  }
+  .content {
+    padding: 30px;
+    p {
+      font-size: 18px;
+    }
+  }
   .contact {
     width: min-content;
     right: 0;
