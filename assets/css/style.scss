@@ -260,9 +260,10 @@ footer {
     right: 0;
     left: 50%;
     transform: translate(-50%, 0);
-  }
-  .contact p {
-    font-size: 18px;
+    padding: 7px;
+    p {
+      font-size: 18px;
+    }
   }
   .back-to-top {
     bottom: 5px;
