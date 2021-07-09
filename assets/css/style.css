@@ -196,6 +196,9 @@ footer {
     border: none;
     box-shadow: 0 3px 0 0 #90AFC5; }
 
+  .img-greenpath {
+    padding-bottom: 0; }
+
   .content {
     padding: 30px; }
     .content p {
@@ -217,6 +220,8 @@ footer {
       font-size: 18px;
       margin-left: 3px;
       margin-right: 3px; }
+    .contact .separator {
+      display: none; }
 
   .back-to-top {
     bottom: 5px;
