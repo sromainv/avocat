@@ -308,14 +308,12 @@ footer {
     right: 0;
     left: 50%;
     transform: translate(-50%, 0);
-    padding: 5px 7px;
+    padding: 7px;
+    padding-top: 5px;
     p {
       font-size: 17px;
-      margin-left: 2px;
-      margin-right: 2px;
-    }
-    .separator {
-      display: none;
+      margin-left: 3px;
+      margin-right: 3px;
     }
   }
   .back-to-top {
