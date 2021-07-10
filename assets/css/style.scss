@@ -22,6 +22,37 @@ Autumn variations : #763626 #8C402D #AB4E37
 */
 
 
+// --- CONTACT STICKER ---
+.contact {
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  right: 7px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+/*  left: 50%;
+  transform: translate(-50%, 0); */
+  background-color: #83acbe;
+  padding: 5px 10px 7px 10px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  p {
+    font-size: 20px;
+    color: white;
+    white-space: nowrap;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .separator {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+}
+
+// -----------------------------------------
 // --- HEADER ---
 header {
   position: relative;
@@ -37,6 +68,9 @@ header {
     position: absolute;
     bottom: 25px;
     left: 25px;
+    h1 {
+      white-space: nowrap;
+    }
   }
 }
 
@@ -224,6 +258,16 @@ footer {
 }
 // Small screens (<750)
 @media screen and (max-width: 750px) {
+  header {
+    .header-text {
+      h1 {
+        font-size: 46px;
+      }
+      h3 {
+        font-size: 20px;
+      }
+    }
+  }
   .menu {
     max-width: 800px;
     ul {
@@ -244,8 +288,8 @@ footer {
     box-shadow: 0 3px 0 0 #90AFC5;
   }
   .img-greenpath {
-    width: 380px;
-    padding-bottom: 0;
+    width: 320px;
+    padding-bottom: 20px;
   }
   .content {
     padding: 30px;
@@ -264,11 +308,11 @@ footer {
     right: 0;
     left: 50%;
     transform: translate(-50%, 0);
-    padding: 7px;
+    padding: 5px 7px;
     p {
-      font-size: 18px;
-      margin-left: 3px;
-      margin-right: 3px;
+      font-size: 17px;
+      margin-left: 2px;
+      margin-right: 2px;
     }
     .separator {
       display: none;
@@ -282,35 +326,8 @@ footer {
 
 
 
-// --- CONTACT STICKER ---
-.contact {
-  z-index: 99;
-  position: fixed;
-  top: 0;
-  right: 7px;
-  display: flex;
-  align-content: center;
-  justify-content: center;
-/*  left: 50%;
-  transform: translate(-50%, 0); */
-  background-color: #83acbe;
-  padding: 5px 10px 7px 10px;
-  border-bottom-left-radius: 12px;
-  border-bottom-right-radius: 12px;
-  p {
-    font-size: 20px;
-    color: white;
-    white-space: nowrap;
-    margin-left: 5px;
-    margin-right: 5px;
-  }
-  .separator {
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
-}
+
+
 
 // --- Button to top ---
 .back-to-top {
