@@ -18,6 +18,9 @@ h2 {
 h3 {
   font-size: 24px; }
 
+h4 {
+  font-size: 20px; }
+
 p {
   font-size: 18px; }
 
@@ -137,8 +140,20 @@ header {
     height: 50px;
     width: 1px; }
 
-.content-index p:nth-child(2) {
-  margin-bottom: 40px; }
+.content-index .art-big-banner {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 16px;
+  margin: 40px 25px 40px 25px;
+  background-color: #83acbe;
+  border-radius: 7px; }
+  .content-index .art-big-banner p {
+    margin: auto auto 20px auto;
+    color: white;
+    font-size: 95%; }
+  .content-index .art-big-banner a {
+    color: white;
+    align-self: center; }
 
 .content-matieres {
   padding-top: 90px; }
@@ -164,6 +179,19 @@ header {
     font-weight: bold;
     font-size: 20px;
     margin: 20px auto 10px 10px; }
+
+.content-actus .art {
+  padding: 10px 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px; }
+  .content-actus .art h2 {
+    font-size: 22px;
+    text-transform: uppercase; }
+  .content-actus .art .art-date {
+    text-align: right; }
+.content-actus .art-banner {
+  width: max-content;
+  color: white;
+  background-color: #83acbe; }
 
 footer {
   z-index: 6;
@@ -194,27 +222,16 @@ footer {
 
 @media screen and (max-width: 1200px) {
   header .header-img {
-    width: 1440px; } }
-@media screen and (max-width: 1000px) and (min-width: 751px) {
+    width: 1440px; }
+
   .menu ul li a p {
     padding: 15px; }
 
   #selected-tab {
-    padding: 11px 15px; }
-
-  .content {
-    padding: 50px; }
-
-  .content-matieres .content-infos {
-    padding-top: 60px; } }
-@media screen and (max-width: 750px) {
-  header .header-text h1 {
-    font-size: 46px; }
-  header .header-text h3 {
-    font-size: 20px; }
-
+    padding: 11px 15px; } }
+@media screen and (max-width: 1000px) {
   .menu {
-    max-width: 800px; }
+    max-width: 1000px; }
     .menu ul {
       padding: 3px;
       flex-direction: column; }
@@ -229,6 +246,17 @@ footer {
     border: none;
     box-shadow: 0 3px 0 0 #90AFC5; }
 
+  .content {
+    padding: 50px; }
+
+  .content-matieres .content-infos {
+    padding-top: 60px; } }
+@media screen and (max-width: 750px) {
+  header .header-text h1 {
+    font-size: 46px; }
+  header .header-text h3 {
+    font-size: 20px; }
+
   .img-greenpath {
     width: 320px;
     padding-bottom: 20px; }
@@ -240,6 +268,9 @@ footer {
 
   .content-box {
     border-left: none; }
+
+  .content-index .article-banner {
+    margin: 30px 10px 30px 10px; }
 
   .content-matieres .content-infos {
     padding-top: 40px; }

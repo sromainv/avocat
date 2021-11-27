@@ -12,6 +12,7 @@ body {
 h1 { font-size: 48px; }
 h2 { font-size: 32px; }
 h3 { font-size: 24px; }
+h4 { font-size: 20px; }
 p { font-size: 18px; }
 
 /*
@@ -52,7 +53,8 @@ Autumn variations : #763626 #8C402D #AB4E37
   }
 }
 
-// -----------------------------------------
+
+
 // --- HEADER ---
 header {
   position: relative;
@@ -73,6 +75,8 @@ header {
     }
   }
 }
+
+
 
 // --- MENU ---
 .menu {
@@ -122,6 +126,8 @@ header {
   border-bottom: 4px solid #90AFC5;
 }
 
+
+
 // --- CONTENT ---
 .img-greenpath {
   width: 480px;
@@ -157,12 +163,28 @@ header {
     width: 1px;
   }
 }
+
 // index.html
 .content-index {
-  p:nth-child(2) {
-    margin-bottom: 40px;
+  .art-big-banner {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 16px;
+    margin: 40px 25px 40px 25px;
+    background-color: #83acbe;
+    border-radius: 7px;
+    p {
+      margin: auto auto 20px auto;
+      color: white;
+      font-size: 95%;
+    }
+    a {
+      color: white;
+      align-self: center;
+    }
   }
 }
+
 // matieres.html
 .content-matieres {
   padding-top: 90px;
@@ -173,6 +195,7 @@ header {
     margin-top: 60px;
   }
 }
+
 // infos-pratiques.html
 .content-infos {
   padding-top: 90px;
@@ -196,6 +219,28 @@ header {
     margin: 20px auto 10px 10px;
   }
 }
+
+// actus.html
+.content-actus {
+  .art {
+    padding: 10px 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    h2 {
+      font-size: 22px;
+      text-transform: uppercase;
+    }
+    .art-date {
+      text-align: right;
+    }
+  }
+  .art-banner {
+    width: max-content;
+    color: white;
+    background-color: #83acbe;
+  }
+}
+
+
 
 // --- FOOTER ---
 footer {
@@ -233,6 +278,8 @@ footer {
 }
 
 
+
+// --- MEDIA QUERIES ---
 // Medium screens (<1200)
 @media screen and (max-width: 1200px) {
   header {
@@ -240,36 +287,18 @@ footer {
       width: 1440px;
     }
   }
-}
-// Transition (1000> & <750)
-@media screen and (max-width: 1000px) and (min-width: 751px) {
   .menu ul li a p {
     padding: 15px;
   }
   #selected-tab {
     padding: 11px 15px;
   }
-  .content {
-    padding: 50px;
-  }
-  .content-matieres .content-infos {
-    padding-top: 60px;
-  }
 }
-// Small screens (<750)
-@media screen and (max-width: 750px) {
-  header {
-    .header-text {
-      h1 {
-        font-size: 46px;
-      }
-      h3 {
-        font-size: 20px;
-      }
-    }
-  }
+
+// Medium-Small screens bridge (<1000)
+@media screen and (max-width: 1000px) {
   .menu {
-    max-width: 800px;
+    max-width: 1000px;
     ul {
       padding: 3px;
       flex-direction: column;
@@ -287,6 +316,26 @@ footer {
     border: none;
     box-shadow: 0 3px 0 0 #90AFC5;
   }
+  .content {
+    padding: 50px;
+  }
+  .content-matieres .content-infos {
+    padding-top: 60px;
+  }
+}
+
+// Small screens (<750)
+@media screen and (max-width: 750px) {
+  header {
+    .header-text {
+      h1 {
+        font-size: 46px;
+      }
+      h3 {
+        font-size: 20px;
+      }
+    }
+  }
   .img-greenpath {
     width: 320px;
     padding-bottom: 20px;
@@ -299,6 +348,9 @@ footer {
   }
   .content-box {
     border-left: none;
+  }
+  .content-index .article-banner {
+    margin: 30px 10px 30px 10px;
   }
   .content-matieres .content-infos {
     padding-top: 40px;

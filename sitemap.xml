@@ -9,18 +9,23 @@
 
 <url>
   <loc>https://www.avocat-derradji.be/</loc>
-  <lastmod>2021-09-29T00:32:29+00:00</lastmod>
+  <lastmod>2021-11-20T00:32:29+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://www.avocat-derradji.be/index.html</loc>
-  <lastmod>2021-09-29T00:32:29+00:00</lastmod>
+  <lastmod>2021-11-20T00:32:29+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.avocat-derradji.be/matieres.html</loc>
   <lastmod>2021-09-29T00:32:29+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.avocat-derradji.be/actus.html</loc>
+  <lastmod>2021-09-29T00:32:29+00:00</lastmod>
+  <priority>0.90</priority>
 </url>
 <url>
   <loc>https://www.avocat-derradji.be/honoraires.html</loc>
@@ -30,7 +35,7 @@
 <url>
   <loc>https://www.avocat-derradji.be/informations.html</loc>
   <lastmod>2021-09-29T00:32:29+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.90</priority>
 </url>
 
 
