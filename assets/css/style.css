@@ -180,18 +180,21 @@ header {
     font-size: 20px;
     margin: 20px auto 10px 10px; }
 
-.content-blog .art {
-  padding: 10px 20px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px; }
-  .content-blog .art h2 {
-    font-size: 22px;
-    text-transform: uppercase; }
-  .content-blog .art .art-date {
-    text-align: right; }
-.content-blog .art-banner {
-  width: max-content;
-  color: white;
-  background-color: #83acbe; }
+.content-blog {
+  margin-top: -10px; }
+  .content-blog .art {
+    padding: 10px 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px; }
+    .content-blog .art h2 {
+      font-size: 22px;
+      text-transform: uppercase; }
+    .content-blog .art .art-date {
+      text-align: right; }
+  .content-blog .art-banner {
+    cursor: pointer;
+    padding: 0 5px;
+    color: white;
+    background-color: #83acbe; }
 
 footer {
   z-index: 6;

@@ -14,3 +14,11 @@ $('.back-to-top').on("click", function(){
 	}, 600);
 	return false;
 });
+
+
+// BLOG - Hide/show
+$(".art-banner").click(function(e){
+    e.preventDefault()
+    var nb = $(this).attr('id');
+    $('#art-'+nb).slideToggle(200);
+});
