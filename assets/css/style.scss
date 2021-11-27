@@ -220,8 +220,8 @@ header {
   }
 }
 
-// actus.html
-.content-actus {
+// blog.html
+.content-blog {
   .art {
     padding: 10px 20px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
@@ -287,34 +287,16 @@ footer {
       width: 1440px;
     }
   }
-  .menu ul li a p {
-    padding: 15px;
-  }
-  #selected-tab {
-    padding: 11px 15px;
-  }
 }
 
 // Medium-Small screens bridge (<1000)
 @media screen and (max-width: 1000px) {
-  .menu {
-    max-width: 1000px;
-    ul {
-      padding: 3px;
-      flex-direction: column;
-      li a p {
-        padding: 0;
-        font-size: 22px;
-      }
-      li a p:after {
-        bottom: -3px;
-      }
-    }
+  .menu ul li a p {
+    font-size: 20px;
+    padding: 12px;
   }
   #selected-tab {
-    padding: 0;
-    border: none;
-    box-shadow: 0 3px 0 0 #90AFC5;
+    padding: 11px 12px;
   }
   .content {
     padding: 50px;
@@ -335,6 +317,25 @@ footer {
         font-size: 20px;
       }
     }
+  }
+  .menu {
+    max-width: 1000px;
+    ul {
+      padding: 3px;
+      flex-direction: column;
+      li a p {
+        padding: 0;
+        font-size: 22px;
+      }
+      li a p:after {
+        bottom: -3px;
+      }
+    }
+  }
+  #selected-tab {
+    padding: 0;
+    border: none;
+    box-shadow: 0 3px 0 0 #90AFC5;
   }
   .img-greenpath {
     width: 320px;

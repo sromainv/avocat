@@ -180,15 +180,15 @@ header {
     font-size: 20px;
     margin: 20px auto 10px 10px; }
 
-.content-actus .art {
+.content-blog .art {
   padding: 10px 20px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px; }
-  .content-actus .art h2 {
+  .content-blog .art h2 {
     font-size: 22px;
     text-transform: uppercase; }
-  .content-actus .art .art-date {
+  .content-blog .art .art-date {
     text-align: right; }
-.content-actus .art-banner {
+.content-blog .art-banner {
   width: max-content;
   color: white;
   background-color: #83acbe; }
@@ -222,14 +222,26 @@ footer {
 
 @media screen and (max-width: 1200px) {
   header .header-img {
-    width: 1440px; }
-
+    width: 1440px; } }
+@media screen and (max-width: 1000px) {
   .menu ul li a p {
-    padding: 15px; }
+    font-size: 20px;
+    padding: 12px; }
 
   #selected-tab {
-    padding: 11px 15px; } }
-@media screen and (max-width: 1000px) {
+    padding: 11px 12px; }
+
+  .content {
+    padding: 50px; }
+
+  .content-matieres .content-infos {
+    padding-top: 60px; } }
+@media screen and (max-width: 750px) {
+  header .header-text h1 {
+    font-size: 46px; }
+  header .header-text h3 {
+    font-size: 20px; }
+
   .menu {
     max-width: 1000px; }
     .menu ul {
@@ -245,17 +257,6 @@ footer {
     padding: 0;
     border: none;
     box-shadow: 0 3px 0 0 #90AFC5; }
-
-  .content {
-    padding: 50px; }
-
-  .content-matieres .content-infos {
-    padding-top: 60px; } }
-@media screen and (max-width: 750px) {
-  header .header-text h1 {
-    font-size: 46px; }
-  header .header-text h3 {
-    font-size: 20px; }
 
   .img-greenpath {
     width: 320px;
