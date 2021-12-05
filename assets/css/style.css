@@ -16,10 +16,10 @@ h2 {
   font-size: 32px; }
 
 h3 {
-  font-size: 24px; }
+  font-size: 26px; }
 
 h4 {
-  font-size: 20px; }
+  font-size: 22px; }
 
 p {
   font-size: 18px; }
@@ -28,7 +28,7 @@ p {
 Primary color : #90AFC5
 Secondary color : #336B87
 Shadow : #2A3132
-Autumn variations : #763626 #8C402D #AB4E37
+Autumn variations : #763626 #88412d #AB4E37
 */
 .contact {
   z-index: 10;
@@ -133,9 +133,7 @@ header {
     font-size: 20px;
     margin: 15px auto 15px auto; }
     .content p a {
-      color: #8C402D; }
-  .content b {
-    color: #8C402D; }
+      color: #88412d; }
   .content .text-spacer {
     height: 50px;
     width: 1px; }
@@ -158,6 +156,7 @@ header {
 .content-matieres {
   padding-top: 90px; }
   .content-matieres h3 {
+    color: #88412d;
     margin-bottom: 30px; }
   .content-matieres .content-matieres-titles {
     margin-top: 60px; }
@@ -174,7 +173,7 @@ header {
   .content-infos h3 {
     margin-bottom: 25px;
     padding-left: 15px;
-    border-left: 7px solid #8C402D; }
+    border-left: 7px solid #88412d; }
   .content-infos .subtitle {
     font-weight: bold;
     font-size: 20px;
@@ -188,8 +187,15 @@ header {
     .content-blog .art h2 {
       font-size: 22px;
       text-transform: uppercase; }
+    .content-blog .art h3 {
+      color: #88412d;
+      margin-top: 20px; }
+    .content-blog .art h4 {
+      margin-top: 25px; }
     .content-blog .art .art-date {
       text-align: right; }
+    .content-blog .art .art-margin {
+      margin-left: 3%; }
   .content-blog .art-banner {
     cursor: pointer;
     padding: 0 5px;
