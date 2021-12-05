@@ -196,6 +196,9 @@ header {
       text-align: right; }
     .content-blog .art .art-margin {
       margin-left: 3%; }
+    .content-blog .art .art-link {
+      margin-top: 30px;
+      text-align: center; }
   .content-blog .art-banner {
     cursor: pointer;
     padding: 0 5px;

@@ -20,5 +20,5 @@ $('.back-to-top').on("click", function(){
 $(".art-banner").click(function(e){
     e.preventDefault()
     var nb = $(this).attr('id');
-    $('#art-'+nb).slideToggle(200);
+    $('#art-'+nb).slideToggle(250);
 });
