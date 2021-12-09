@@ -138,6 +138,8 @@ header {
     height: 50px;
     width: 1px; }
 
+.content-index b {
+  color: #88412d; }
 .content-index .art-big-banner {
   display: flex;
   flex-direction: column;
@@ -146,9 +148,15 @@ header {
   background-color: #83acbe;
   border-radius: 7px; }
   .content-index .art-big-banner p {
-    margin: auto auto 20px auto;
+    margin: auto auto 10px auto;
     color: white;
-    font-size: 95%; }
+    font-size: 96.5%; }
+    .content-index .art-big-banner p .art-img {
+      width: 30px;
+      margin: 4px 10px; }
+  .content-index .art-big-banner p:first-child {
+    display: flex;
+    align-items: center; }
   .content-index .art-big-banner a {
     color: white;
     align-self: center; }

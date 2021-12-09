@@ -155,7 +155,6 @@ header {
       color: #88412d;
     }
   }
-  // b {color: #88412d;}
   .text-spacer {
     height: 50px;
     width: 1px;
@@ -164,6 +163,7 @@ header {
 
 // index.html
 .content-index {
+  b {color: #88412d;}
   .art-big-banner {
     display: flex;
     flex-direction: column;
@@ -172,9 +172,17 @@ header {
     background-color: #83acbe;
     border-radius: 7px;
     p {
-      margin: auto auto 20px auto;
+      margin: auto auto 10px auto;
       color: white;
-      font-size: 95%;
+      font-size: 96.5%;
+      .art-img {
+        width: 30px;
+        margin: 4px 10px
+      }
+    }
+    p:first-child {
+      display: flex;
+      align-items: center;
     }
     a {
       color: white;
