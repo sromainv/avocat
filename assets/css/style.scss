@@ -133,6 +133,7 @@ header {
   width: 480px;
   display: block;
   margin: 0 auto;
+  padding-top: 60px;
   padding-bottom: 50px;
 }
 .content-box {
@@ -150,7 +151,7 @@ header {
   padding: 80px 100px;
   p {
     font-size: 20px;
-    margin: 15px auto 15px auto;
+    margin: 15px auto;
     a {
       color: #88412d;
     }
@@ -163,12 +164,15 @@ header {
 
 // index.html
 .content-index {
-  b {color: #88412d;}
+  .word-highlight {
+    font-weight: bold;
+    color: #88412d;
+  }
   .art-big-banner {
     display: flex;
     flex-direction: column;
     padding: 10px 16px;
-    margin: 40px 25px 40px 25px;
+    margin: 50px 25px;
     background-color: #83acbe;
     border-radius: 7px;
     p {
@@ -208,7 +212,7 @@ header {
   padding-top: 90px;
   p {
     display: flex;
-    margin: 5px auto 5px auto;
+    margin: 5px auto;
     a {
       margin: -6px auto 8px 30px;
       color: #377391;
@@ -299,6 +303,14 @@ footer {
     }
   }
 }
+// A ENLEVER APRES REFONTE FOOTER
+.disclaimer {
+  color: #88412d;;
+  text-align: center;
+  font-weight: bold;
+}
+// A ENLEVER APRES REFONTE FOOTER
+
 
 
 
@@ -374,7 +386,7 @@ footer {
     border-left: none;
   }
   .content-index .article-banner {
-    margin: 30px 10px 30px 10px;
+    margin: 30px 10px;
   }
   .content-matieres .content-infos {
     padding-top: 40px;
