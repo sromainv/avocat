@@ -281,7 +281,7 @@ footer .footer {
   justify-content: center;
 }
 footer .footer .footer-logo {
-  height: 110px;
+  height: 90px;
   margin-right: 15px;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -292,12 +292,6 @@ footer .footer .footer-content {
 }
 footer .footer .footer-content p {
   color: white;
-}
-footer .footer .footer-content p:nth-child(1) {
-  font-size: 22px;
-}
-footer .footer .footer-content p:nth-child(4) {
-  font-size: 16px;
 }
 
 .disclaimer {

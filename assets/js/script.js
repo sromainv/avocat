@@ -19,6 +19,13 @@ $('.back-to-top').on("click", function(){
 // BLOG - Hide/show
 $(".art-banner").click(function(e){
     e.preventDefault()
-    var nb = $(this).attr('id');
+    let nb = $(this).attr('id');
     $('#art-'+nb).slideToggle(250);
 });
+
+
+// Display current year
+window.onload = function(){
+  let currentYear = new Date().getFullYear();
+  $('#cYear').text("2021-"+currentYear);
+};
